@@ -17,12 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px]`}>
+      <body className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}>
       <Header />
       {children}
-      <div className='bg-[#fbe2e3] absolute top-24 right-44 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]'></div>
-      <div className='bg-[#dbd7fb] absolute top-24 right-44 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] lg:left-[-28rem] xl:left-[-15rem] 2xl-[-5rem]'></div>
+      <div className='bg-[#fbe2e3] absolute top-24 right-44 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] -z-10'></div>
+      <div className='bg-[#dbd7fb] absolute top-24 right-44 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] lg:left-[-28rem] xl:left-[-15rem] 2xl-[-5rem] -z-10'></div>
       </body>
     </html>
-  )
+  ) 
 }
