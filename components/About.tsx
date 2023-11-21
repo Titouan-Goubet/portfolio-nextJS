@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { useSectionInView } from '@/lib/hook'
 
 export default function About() {
-  const { ref } = useSectionInView('Au sujet de moi')
+  const { ref } = useSectionInView('Présentation')
 
   return (
     <motion.section 
@@ -18,7 +18,7 @@ export default function About() {
     id="about"
     >
       
-    <SectionHeading>Au sujet de moi</SectionHeading>
+    <SectionHeading>Présentation</SectionHeading>
     <p className="mb-3">
         J&apos;ai entamé une formation d&apos;un an à l&apos;école 42. Passionné par la programmation, j&apos;ai choisi de me spécialiser davantage dans le domaine du développement web, plus précisément en JavaScript. Pour approfondir mes compétences, j&apos;ai décidé de poursuivre ma formation en m&apos;inscrivant au programme de développeur full-stack dispensé par l&apos;école O&apos;clock.{" "}
         <span className="italic">Ce qui me passionne le plus dans la programmation</span> est l&apos;aspect résolution de problèmes. J&apos;<span className="underline">adore</span> la satisfaction de trouver la solution à un défi complexe. Ma stack technologique de base comprend{" "}

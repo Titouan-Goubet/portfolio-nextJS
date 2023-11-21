@@ -31,14 +31,19 @@ export default function ThemeContextProvider({ children }: ThemeContextProviderP
   }
 
   useEffect(() => {
-    const localTheme = window.localStorage.getItem('theme') as Theme
+    const localTheme = window.localStorage.getItem("theme") as Theme | null;
 
     if (localTheme) {
-      setTheme(localTheme)
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark')
+      setTheme(localTheme);
+
+      if (localTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
     }
-  }, [])
+  }, []);
 
   return (
     <themeContext.Provider value={{
