@@ -2,6 +2,9 @@ import Image from 'next/image'
 import Intro from '@/components/Intro'
 import SectionDivider from '@/components/Section-divider'
 import About from '@/components/About'
+import Projects from '@/components/Projects'
+import Contact from '@/components/Contact'
+import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
+      <Projects />
+      <Skills />
+      <Contact />
     </main>
   )
 }
