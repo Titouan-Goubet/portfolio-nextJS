@@ -1,5 +1,5 @@
 import React from 'react'
-import { useFormStatus } from 'react-dom'
+import { useFormStatus } from "react-dom"
 import { FaPaperPlane } from 'react-icons/fa'
 
 export default function SubmitBtn() {
