@@ -1,6 +1,6 @@
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Opoll from "@/public/Opoll.jpg";
+import eCommerce from "@/public/eCommerce.jpg";
+import puissance4Img from "@/public/puissance4.png";
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { Si42 } from "react-icons/si";
@@ -53,9 +53,9 @@ export const experiencesData = [
   },
   {
     title: "O'clock",
-    location: "Paris, France",
+    location: "Remote, France",
     description:
-      "J'ai suivi une formation de six mois et effectué mes premiers pas dans la programmation avec le langage JavaScript et le framework React. Puis j'ai poursuivi ma formation en autodidacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile.",
+      "J'ai suivi une formation de six mois et effectué mes premiers pas avec le langage JavaScript et le framework React. Puis j'ai poursuivi ma formation en autodidacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile.",
     icon: React.createElement(FaReact),
     date: "fev 2023 - aout 2023",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Auto-didacte",
     location: "Paris, France",
     description:
-      "Je poursuis mon apprentissage en autodidacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile. Actuellement je travaille sur un projet de e-commerce avec Next.js et Prisma en TypeScript.",
+      "Je poursuis mon apprentissage en auto-didacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile. Actuellement je travaille sur un projet de e-commerce avec Next.js et Prisma en TypeScript.",
     icon: React.createElement(SiTypescript),
     date: "aout 2023 - maintenant",
   },
@@ -75,21 +75,21 @@ export const projectsData = [
     description:
       "Une application web pour créer des sondages. J'étais le développeur front-end. Elle permet la création de sondages, le vote, et le partage.",
     tags: ["React", "Typescript", "MaterialUI" , "MySQL" , "Sequelize"],
-    imageUrl: corpcommentImg,
+    imageUrl: Opoll,
   },
   {
     title: "E-commerce",
     description:
       "Une application web e-commerce dédiée aux passionnés du TCG Pokémon. En cours de construction.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma"],
-    imageUrl: rmtdevImg,
+    imageUrl: eCommerce,
   },
   {
     title: "Puissance 4",
     description:
       "Une application web pour jouer au puissance 4. Elle offre des fonctionnalités telles que le jeu contre l'ordinateur. En cours de construction",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: puissance4Img,
   },
 ] as const;
 

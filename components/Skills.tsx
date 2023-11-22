@@ -7,10 +7,7 @@ import { useSectionInView } from '@/lib/hook'
 import { motion } from 'framer-motion'
 
 const fadeInAnimation = {
-  initial: {
-    opacity: 0,
-    y: 100
-  },
+  initial: { opacity: 0, y: 100},
   animate: (index: number) => ({
     opacity: 1,
     y: 0,
@@ -27,7 +24,7 @@ export default function Skills() {
     <section
         id="skills"
         ref={ref} 
-        className='mb-28 max-w-[53rem] scroll-mt-44 text-center sm:mb-40'>
+        className='mb-28 max-w-[50rem] scroll-mt-60 text-center sm:mb-60 sm:mt-20'>
         <SectionHeading>Mes compétences</SectionHeading>
         <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
             {
@@ -38,11 +35,9 @@ export default function Skills() {
                       initial='initial'
                       animate='animate'
                       whileInView="animate"
-                      viewport={{
-                        once: true
-                      }}
+                      viewport={{ once: true }}
                       custom={index}
-                      className='bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80'>
+                      className='bg-white borderBlack rounded-xl px-6 py-3 dark:bg-white/10 dark:text-white/80'>
                           {skill}
                     </motion.li>
                 ))}
