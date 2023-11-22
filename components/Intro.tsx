@@ -68,7 +68,7 @@ export default function Intro() {
             className="opacity-70 group-hover:translate-x-1 transition" />
           </Link>
 
-          <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer border border-black/10 filter drop-shadow-md dark:bg-white/10' href="/CV.pdf" download={true}>
+          <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer border border-black/10 filter drop-shadow-md dark:bg-white/10' href="/TitouanGoubet.pdf" download={true}>
             Télécharger mon CV <HiDownload 
             className="opacity-60 group-hover:translate-y-1" />
           </a>
