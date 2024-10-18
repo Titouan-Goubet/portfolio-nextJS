@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "J'ai suivi une formation de six mois et effectué mes premiers pas avec le langage JavaScript et le framework React. Puis j'ai poursuivi ma formation en autodidacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile.",
     icon: React.createElement(FaReact),
-    date: "fev 2023 - aout 2023",
+    date: "fev 2023 - septembre 2023",
   },
   {
     title: "Auto-didacte",
@@ -65,7 +65,7 @@ export const experiencesData = [
     description:
       "Je poursuis mon apprentissage en auto-didacte tout en passant un examen pour obtenir un titre professionnel de développeur web et web mobile. Actuellement je travaille sur un projet de e-commerce avec Next.js et Prisma en TypeScript.",
     icon: React.createElement(SiTypescript),
-    date: "aout 2023 - maintenant",
+    date: "octobre 2023 - maintenant",
   },
 ] as const;
 
@@ -74,7 +74,7 @@ export const projectsData = [
     title: "O'poll",
     description:
       "Une application web pour créer des sondages. J'étais le développeur front-end. Elle permet la création de sondages, le vote, et le partage.",
-    tags: ["React", "Typescript", "MaterialUI" , "MySQL" , "Sequelize"],
+    tags: ["React", "Typescript", "MaterialUI", "MySQL", "Sequelize"],
     imageUrl: Opoll,
   },
   {
@@ -85,10 +85,10 @@ export const projectsData = [
     imageUrl: eCommerce,
   },
   {
-    title: "Puissance 4",
+    title: "SynapticSurge",
     description:
-      "Une application web pour jouer au puissance 4. Elle offre des fonctionnalités telles que le jeu contre l'ordinateur. En cours de construction",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer"],
+      "SynapticSurge est une application de quiz interactif en temps réel qui permet de défier ses amis en temps réel sur une large variété de thèmes.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "SocketIO"],
     imageUrl: puissance4Img,
   },
 ] as const;
@@ -104,13 +104,15 @@ export const skillsData = [
   "Express",
   "Git",
   "Tailwind",
-  "MaterialUI",
-  "Bootstrap",
-  "Framer Motion",
+  ,
+  "Jest",
   "Prisma",
   "Redux",
   "Express",
-  "PostgreSQL",
+  "MySQL",
   "Sequelize",
   "Postman",
+  "Docker",
+  "AWS",
+  "Firebase",
 ] as const;
