@@ -1,6 +1,6 @@
 import Opoll from "@/public/Opoll.jpg";
 import eCommerce from "@/public/eCommerce.jpg";
-import puissance4Img from "@/public/puissance4.png";
+import puissance4Img from "@/public/Brain.jpg";
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { Si42 } from "react-icons/si";
